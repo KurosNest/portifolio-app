@@ -14,10 +14,10 @@ export const HomePage = () => {
           Ragnhild Fjærbu Solheim
         </h1>
         <h2 className="text-2xl sm:text-4xl mx-auto font-bold text-[#848794]">
-          I´m a developer.
+          I´m a developer in the making
         </h2>
         <p className="text-[#848794] mx-auto py-4 max-w-[700px]">
-          Thanks for visiting my page, feel free to check out my portifolio
+          Thanks for visiting my page! Check it out
         </p>
         <div>
           <button className="text-gray-700 mx-auto group border-2 px-6 py-3 my-5 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white">
