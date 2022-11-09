@@ -1,7 +1,7 @@
 import React from "react";
 import Design from "../assets/design-icon.png";
 import Developing from "../assets/developing-icon.png";
-import Event from "../assets/event-icon.png";
+// import Event from "../assets/event-icon.png";
 
 const Skills = () => {
   return (
