@@ -3,27 +3,30 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full sm:h-screen bg-gradient-to-r from-green-500 to-yellow-500">
+    <div id="skills" className="w-full sm:h-screen">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-2 border-grey-500">
+        <div className="font-bold text-white">
+          <p className="text-4xl">
             Skills
           </p>
           <p className="py-4">Take a look at my skills</p>
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5 text-center py-8">
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-4">
+          <div className="bg-[#edede9] pt-4 rounded">
             <p className="my-4 font-semibold">Code</p>
             <p className="my-4 p-5">
               <ul>Java</ul>
               <ul>Python</ul>
               <ul>JavaScript</ul>
+              <ul>TypeScript</ul>
               <ul>HTML</ul>
               <ul>CSS</ul>
+              <ul>React</ul>
+              <ul>Tailwind</ul>
             </p>
           </div>
 
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-4">
+          <div className="bg-[#edede9] pt-4 rounded">
             <p className="my-4 font-semibold">Design</p>
             <p className="my-4 p-5">
               <ul>Maya</ul>
@@ -31,10 +34,9 @@ const Skills = () => {
               <ul>Substance Painter</ul>
               <ul>PhotoShop</ul>
               <ul>Unreal Engine</ul>
+              <ul>Figma</ul>
             </p>
           </div>
-
-          
         </div>
       </div>
     </div>

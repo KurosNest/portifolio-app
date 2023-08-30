@@ -29,8 +29,8 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
+          <Link to="3Dprojects" smooth={true} duration={500}>
+            3D Projects
           </Link>
         </li>
       </ul>
