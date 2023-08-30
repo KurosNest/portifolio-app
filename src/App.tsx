@@ -1,6 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { HomePage } from "./components/HomePage";
-// import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe";
 // import Skills from "./components/Skills";
 // import Projects from "./components/Projects";
 
@@ -9,8 +9,8 @@ function App() {
     <div>
       <Navbar />
       <HomePage />
-      {/* <AboutMe />
-      <Skills />
+      <AboutMe />
+      {/* <Skills />
       <Projects /> */}
     </div>
   );
