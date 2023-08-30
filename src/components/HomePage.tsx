@@ -7,7 +7,7 @@ export const HomePage = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div id="home" className="w-full h-screen bg-gradient-to-b from-[#F3F2E0] to-[#C5DCA0]">
+    <div id="home" className="w-full h-screen bg-teal-200">
       <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
         <p className="text-black mx-auto my-3">Hi, my name is</p>
         <h1 className="text-3xl sm:text-6xl mx-auto font-bold text-gray-700">
@@ -22,7 +22,7 @@ export const HomePage = () => {
         <div>
           <button className="text-gray-700 mx-auto group border-2 px-6 py-3 my-5 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white">
             <Link onClick={handleClick} to="projects" smooth={true} duration={800}>
-              Look at some stuff I've done!
+              Look at some stuff I've done :D
             </Link>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
