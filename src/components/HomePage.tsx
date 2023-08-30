@@ -1,7 +1,7 @@
 //import React, { useState } from "react";
 // import { Link } from "react-scroll";
 // import { HiArrowNarrowRight } from "react-icons/hi";
-import me from "../assets/nyttPBFun.png";
+import me from "../assets/Me_noBG.png";
 
 
 export const HomePage = () => {
@@ -9,7 +9,7 @@ export const HomePage = () => {
   //const handleClick = () => setNav(!nav);
 
   return (
-    <div id="home" className="w-full h-screen flex items-center bg-[#7ebbce]">
+    <div id="home" className="w-full h-screen flex items-center">
       <div className="ml-4 flex-1 text-white">
         <p className="text-3xl md:text-6xl font-serif">
           Ragnhild Fjærbu Solheim
