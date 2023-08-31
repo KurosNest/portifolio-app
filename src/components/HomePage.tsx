@@ -1,7 +1,7 @@
 //import React, { useState } from "react";
 // import { Link } from "react-scroll";
 // import { HiArrowNarrowRight } from "react-icons/hi";
-import me from "../assets/Me_noBG.png";
+import me from "../assets/me_paperBG.png";
 
 export const HomePage = () => {
   //const [nav, setNav] = useState(false);
@@ -9,7 +9,7 @@ export const HomePage = () => {
 
   return (
     <div id="home" className="w-full h-screen flex items-center">
-      <div className="ml-4 flex-1 text-white">
+      <div className="ml-4 flex-1 ">
         <p className="text-5xl md:text-8xl font-serif">
           Ragnhild Fjærbu Solheim
         </p>
@@ -18,7 +18,7 @@ export const HomePage = () => {
           <ul>Front-end developer in the making</ul>
         </div>
       </div>
-      <div className="h-full flex items-end">
+      <div className="h-full flex items-center">
         <img
           className="h-[80vh] min-h-[300px] min-w-[300px]"
           src={me}

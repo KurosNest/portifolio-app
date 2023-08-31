@@ -7,7 +7,7 @@ import WIP from "./components/WIP";
 
 function App() {
   return (
-    <div className="bg-[url('/src/assets/testBG2.png')] bg-cover bg-no-repeat">
+    <div className="bg-[url('/src/assets/watercolorPaperTile2.jpg')]">
       <Navbar />
       <HomePage />
       <AboutMe />

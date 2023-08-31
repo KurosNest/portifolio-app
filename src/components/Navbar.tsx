@@ -8,7 +8,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-white font-bold">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4  font-bold">
       <div>
       </div>
 
@@ -43,7 +43,7 @@ export const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#22333b] flex flex-col justify-center items-center text-white"
+            : "absolute top-0 left-0 w-full h-screen bg-[#22333b] flex flex-col justify-center items-center "
         }
       >
         <li className="py-6 text-4xl">
